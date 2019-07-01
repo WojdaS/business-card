@@ -10,4 +10,69 @@ html {
 
 body {
     background: #2C2141;
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.card {
+    background: #F8F8F8;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 624px;
+    padding: 32px;
+}
+
+.person {
+    display: flex;
+    align-items: flex-start;
+}
+
+.persone__description {
+    font-family: Roboto;
+    /*  font-style: normal;
+    font-weight: normal; */
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.person__header {
+    margin-bottom: 32px;
+}
+
+.persone__description--last {
+    margin-bottom: 0;
+}
+
+.person__name {
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 41px;
+}
+
+.person__link {
+    color: #E20613;
+    text-decoration: none;
+}
+
+.person__photo {
+    margin-right: 32px;
+}
+
+.persone_special {
+    color: #ED6D05;
+}
+
+.person__title {
+    color: #545454;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
 }
